@@ -1,0 +1,92 @@
+
+.weekweather {
+	height: 100%;
+	color: #f8f8f8;
+	overflow: hidden;
+}     
+.weekweather .header{
+	height: 52px;
+	background: #2BA6E5;
+	padding: 0 36px;
+
+} 
+.weekweather .head{
+	width: 100%;
+	height: 100%;
+}             
+.weekweather .head>img{
+	width: 14px;
+	margin-top: 15px;
+}
+.weekweather .head>img:nth-child(2){
+	width: 20px;
+	margin-top: 15px;
+}
+.weekweather .content{
+	width: 100%;
+	overflow-y: auto;
+	height: calc(100% - 52px);
+}
+.weekweather .content .date_weather{
+	height: 14.28%;
+	background: url('../../images/Weather_bg_cloud@3x.png') no-repeat 0 0;
+	background-size: cover;
+	overflow: hidden;
+}
+.weekweather .content .sun{
+	// height: calc((100%-42px)/7);
+	background: url('../../images/Weather_bg_sun@3x.png') no-repeat 0 0;
+	background-size: cover;
+	overflow: hidden;
+}
+.weekweather .content .rain{
+	// height: calc((100%-42px)/7);
+	background: url('../../images/Weather_bg_rain@3x.png') no-repeat 0 0;
+	background-size: cover;
+	overflow: hidden;
+}
+.weekweather .date_weather>div{
+	float: left;
+}
+.weekweather .date_weather .date_weather_icon{
+	width: 35%;
+	overflow-y: hidden;
+
+}
+.weekweather .date_weather_icon span{
+	width: 70%;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+.weekweather .date_weather_icon span img{
+	width: 60%;
+	margin: 5% auto;
+}
+.weekweather .date_weather_icon span p{
+	text-align: center;
+	color: #FFF;
+}
+
+.weekweather .date_weather .date_weather_details{
+	width:65%;
+	height: 100%;
+	background: url('../../images/Weather_bg@3x.png');
+	background-size:cover; 
+}
+
+.weekweather .date_weather_details .date_weather_details_list{
+	width: 100%;
+	height: 100%;
+	margin: 0% 5%;
+} 
+.weekweather .date_weather_details_list ul{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.weekweather .date_weather_details_list ul li{
+	float: left;
+	width: 50%;
+	margin: 4% 0;
+}

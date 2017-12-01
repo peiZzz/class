@@ -1,0 +1,85 @@
+          
+.removecity{
+	height: 100%;
+	background: #FFF;
+	font-size: 16px;
+} 
+.removecity .header{
+	height: 42px;
+	background: #2BA6E5;
+	text-align: center;
+	line-height: 42px;
+	font-size: 20px;
+	color: #FFF;
+} 
+.removecity .content{
+	width: 100%;
+	overflow-x:hidden; 
+}
+.removecity .content .close_start{
+	height: 20px;
+	background: #f8f8f8;
+	margin: 0px;
+	border:none;
+
+}
+.removecity .content div{
+	height: 60px;
+	width: calc(100% + 80px);
+	border-bottom: 1px solid #ccc;
+	line-height: 60px;
+}
+
+.removecity .content img{
+	width: 20px;
+	min-width: 18px;
+	padding-top:18px; 
+	float: left;
+	margin-left: 30px;
+}
+
+.removecity .content .citys span:nth-child(1){
+	margin-left: 30px;
+}
+
+.removecity .content div span:nth-child(1){
+	margin-left: 50px;
+}
+
+.removecity .content div span:nth-child(3){
+	margin-right: 25px;
+	float: right;
+}
+.removecity .content .re_last .last{
+	margin-right: 110px;
+	float: right;
+}
+.removecity .content div .btn{
+	height: 100%;
+	width: 80px;
+	background: #F00;
+	float: right;
+	line-height: 60px;
+	color: #FFF;
+	font-size: 18px;
+	text-align: center;
+}
+.removecity .close_end{
+	height: 52px;
+	background: #D7D7D7;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+
+}
+.removecity .close_end div{
+	width: 30px;
+	height: 40px;
+	margin: 0 auto;
+	padding-top: 15px; 
+}
+.removecity .close_end div img{
+	width: 30px;
+}

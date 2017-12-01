@@ -1,0 +1,33 @@
+
+.start{
+	height: 100%;
+	overflow:hidden; 
+}
+.start ul{
+	height: 100%
+}
+.start ul>li{
+	
+	float: left;
+	height: 100% 	
+}
+.start ul>li>img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets{
+	bottom: 10%;
+}
+.start .swiper-pagination span{
+	width: 14px;
+	height: 14px;
+	box-sizing: border-box;
+	border: 2px solid #FFFFFF;
+	border-radius: 50%;
+	background:  transparent;
+}
+.start .swiper-pagination>.swiper-pagination-bullet-active {
+	background-color:#FFF; 
+}

@@ -1,0 +1,69 @@
+             
+.citymanage{
+	height: 100%;
+	background: #FFF;
+
+} 
+.citymanage .header{
+	height: 42px;
+	background: #2BA6E5;
+	text-align: center;
+	line-height: 42px;
+	font-size: 22px;
+	color: #FFF;
+} 
+
+.citymanage .content .close_start{
+	height: 30px;
+	background: #f8f8f8;
+	margin: 0px;
+	border:none;
+
+}
+.citymanage .content div{
+	height: 50px;
+	border-bottom: 1px solid #ccc;
+	line-height: 50px;
+}
+.citymanage .content div span img{
+	width: 20px;
+	min-width: 18px;
+	padding-top:13px; 
+	padding-right: 10px;
+	float: left;
+}
+.citymanage .content div:nth-child(2) span img{
+	margin-left: 50px;
+}
+.citymanage .content div:nth-child(2) span:nth-child(1){
+	margin: 0;
+}
+.citymanage .content div span:nth-child(1){
+	margin-left: 50px;
+}
+
+.citymanage .content div span:nth-child(2){
+	margin-right: 50px;
+	float: right;
+}
+
+.citymanage .close_end{
+	height: 50px;
+	background: #D7D7D7;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+
+}
+.citymanage .close_end div{
+	width: 30px;
+	height: 40px;
+	margin: 0 auto;
+	padding-top: 15px; 
+}
+.citymanage .close_end div img{
+	width: 30px;
+
+}

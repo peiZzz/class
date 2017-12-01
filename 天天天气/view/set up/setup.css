@@ -1,0 +1,48 @@
+
+.setup{
+	height: 100%;
+	background: #EEEEEE;
+
+}
+.setup .header{
+	height: 52px;
+	background: #2BA6E5;
+	padding: 0 5%;
+	line-height: 52px;
+	text-align: center;
+	font-size: 22px;
+	color: #FFF;
+	margin-bottom: 20px;
+}
+.setup .header img{
+	width: 14px;
+	float: left;
+	padding-top:16px;
+}
+.setup .content{
+	overflow: hidden;
+	font-size: 20px;
+	
+}
+.setup .content img{
+	width: 14px;
+	float: right;
+	padding-top: 15px;
+}
+.setup .content .function{
+	padding:0 5%;	
+	margin-bottom: 16px;
+	overflow: hidden;
+	height: 50px;
+	line-height: 50px;
+	color: #696A77;
+	background: #FFF;
+}
+.setup .exit{
+	height: 50px;
+	line-height: 50px;
+	color: #696A77;
+	font-size: 20px;
+	text-align: center;
+	background: #FFF;
+}

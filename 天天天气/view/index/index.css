@@ -1,0 +1,164 @@
+
+img{
+	width:auto;
+	height: auto;
+	outline: none;
+	display: block;
+}              
+.index{
+	height: 100%;
+	background: url('../../images/Home_bg@3x.png') no-repeat 0 0;
+	background-size: cover;
+	overflow: hidden;
+}
+.index .header{
+	height: 52px;
+	background: #2BA6E5;
+	padding: 0px 30px;
+	line-height: 52px;
+	text-align: center;
+} 
+.index .header>img:nth-child(1){
+	width: 14px;
+	float: left;
+	margin-top: 14px;
+} 
+.index .header>img:nth-child(3){
+	width: 24px;
+	float: right;
+	margin-top: 14px;
+} 
+.index .header>span{
+	font-size: 20px;
+	color: #FFF;
+	display: inline-block;
+}   
+.index .content{
+	height:calc(100% - 42px);
+} 
+.index .content .content_show{
+	width: 90%;
+	margin: 0% 5%;
+	padding-top: 30px;
+	overflow: hidden;
+}  
+.index  .content_show .content_show_icon {
+	width: 45%;
+	float: left;
+} 
+.index .content_show_icon span img{
+	width: 90%;
+	padding-top: 15%;
+}  
+.index .content_show .content_show_details {
+	width: 45%;
+	float: left;
+	padding-left: 5%;
+	color: #FFF;
+}
+.index .content_show_details p{
+	margin-top: 5px;
+	text-align: center;
+}
+
+.index .content_show_details p:nth-child(1){
+	font-size: 24px;
+	text-align: center;
+}
+.index .content_show_details p:nth-child(2){
+	font-size: 22px;
+	text-align: center;
+}
+
+
+.index .content .content_hour_weather{
+	color: #FFF;
+}
+.index .content .content_hour_weather p{
+	margin-left:5%;
+	padding: 5px 0;
+}
+.index .content_hour_weather .content_hour_weather_details{
+	overflow-x: auto;
+	overflow-y: hidden;
+	border-top: 1px solid #FFF;
+	border-bottom: 2px solid #FFF;
+}
+.index .content_hour_weather ul{	
+	width: 800px;
+}
+.index .content_hour_weather ul li{
+	float: left;
+	width: 70px;
+	// margin: 0 0px;
+	text-align: center;
+}
+.index .content_hour_weather ul li:nth-child(1){
+	margin-left: 8px;
+}
+.index .content_hour_weather ul li img{
+	width: 40px;
+	margin: 0 auto;
+}
+.index .content_hour_weather ul li p{
+	padding: 10px 0;
+}
+
+.index .live_index{
+	color: #FFF;
+	height: 44%;
+	overflow-y: auto;
+}
+.index .live_index h3{
+	padding:8px 0px 8px 20px;
+}
+
+.index  .live_index_list ul{
+
+		overflow-y: auto;
+}
+.index .live_index_list ul li{
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+	padding: 5px 0px;
+	border: 1px solid #FFF;
+	height: 88px;
+}
+.index .live_index_list ul li:nth-child(1){
+	border-left: none;
+}
+.index .live_index_list ul li:nth-child(3){
+	border-left: none;
+}
+.index .live_index_list ul li:nth-child(5){
+	border-left: none;
+}
+
+.index .live_index_list ul li:nth-child(2){
+	border-right: none;
+}
+.index .live_index_list ul li:nth-child(4){
+	border-right: none;
+}
+.index .live_index_list ul li:nth-child(6){
+	border-right: none;
+}
+
+.index .live_index_list ul li p{
+ 	font-size: 12px;
+ }
+.index .live_index_list ul li div{
+	float: left;
+	width: 50%
+}
+.index .live_index_list ul li .live_index_list_icon{
+	padding-top:5px; 
+	text-align: center;
+}
+
+.index .live_index_list ul li img{
+	width: 26px;
+	min-width: 20px;
+	margin: 5px auto;
+}

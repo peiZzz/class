@@ -1,0 +1,102 @@
+
+.personcenter{
+	height: 100%;
+	background: #EEE;
+}
+.personcenter .header{
+	height: 52px;
+	padding: 0 5%;
+	background:#2BA6E5;
+	text-align: center;
+	color: #FFF;
+	font-size: 20px;
+	line-height: 52px;
+}
+.personcenter .header img{
+	float: left;
+	width: 14px;
+	padding-top: 16px;
+	padding-bottom: 10px;
+}
+.personcenter .banner-icon{
+	background: url('../../images/background-icon.png');
+	background-size: cover;
+	height: 29%;
+}
+.personcenter .banner-icon div{
+	width: 26%;
+	margin: 0 auto;
+	text-align: center;
+	color: #FFF;
+	font-size: 15px;
+	padding:9%;
+	border-radius: 50%;
+}
+.personcenter .content{
+	padding-top: 15px;
+}
+.personcenter .content .per-list{
+	height: 50px;
+	line-height: 50px;
+	background: #FFF;
+	padding: 0 5%;
+	color: #696A77;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.personcenter .per-list img{
+	float: right;
+	width: 14px;
+	padding-top: 14px;
+}
+.personcenter .per-list .btn-big{
+	width: 36px;
+	height: 18px;
+	border: 1px solid #1db63d;
+	border-radius: 9px;
+	float: right;
+	margin-top: 15px;
+	position: relative;
+}
+.personcenter .btn-big>div{
+   position: absolute;
+	height: 18px;
+	width: 18px;
+	background: #1db63d;
+	border-radius: 50%;
+}
+.personcenter .footer{
+	height: 52px;
+	width: 100%;
+	background: #FFF;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	line-height: 50px;
+
+}
+.personcenter .footer ul{
+	overflow: hidden;
+	
+	color: #C4C4C4
+}
+.personcenter .footer li{
+	width:33.3333%;
+	text-align: center;
+	position: relative;
+	padding-top: 12px;
+}
+
+
+
+.personcenter .footer li img{
+	width: 22px;
+	position: absolute;
+	top: 10px;
+	left: calc(50% - 11px);
+}
+/*.personcenter .footer li span{
+	position: absolute;
+
+}
+*/

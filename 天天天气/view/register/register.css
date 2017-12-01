@@ -1,0 +1,100 @@
+            
+.register{
+	height: 100%;
+	background: #f8f8f8;
+} 
+.register .header{
+	height: 52px;
+	background: #2BA6E5;
+	padding: 0 10%;
+	text-align: center;
+	line-height: 52px;
+}
+.register .header>img{
+	width: 14px;
+	float: left;
+	margin-top: 13px;
+} 
+.register .header>span{
+	font-size: 22px;
+	color: #FFF;
+	letter-spacing: 0.5em;
+	display: inline-block;
+}           
+
+.register .content{
+	margin: 15% 10% 0;
+}
+.register .content .form{
+}
+.register .content .form .number{
+	height: calc(18% - 5px);
+	padding:5px 8px;
+	border-radius: 10px;
+	background:#d5d5d5;
+	margin-bottom: 6%;
+}
+.register .content .form .number span{
+	float:left;
+	height:100%;
+	width:15%;
+	border-right: 1px solid #FFF;
+	
+}
+.register .content .form .number span>img{
+	width:24px;
+	margin-left: 5px;
+	margin-top: 1%;
+}
+.register .content .form .number input{
+	display:inline-block;
+	height:30px;
+	width:75%;
+	border:none;
+	color:#FFF;
+	font-size:16px;
+	background:#d5d5d5;
+	padding-left: 20px;
+}
+.register .content .form .number input::-webkit-input-placeholder{
+	color:#FFF;
+}
+.register .content .form .sub{
+	background:#2BA6E5;
+	color:#FFF;
+	font-size:18px;
+	text-align:center;
+	height: 30px;
+	padding:2% 0 0 0;
+	letter-spacing: 0.25em;
+}
+
+.register .footer{
+	text-align:center;
+	margin: 60px 44px;
+	border-top: 1px solid #000;
+	position: relative;
+}
+.register .footer span{
+	width:100px;
+	font-size: 14px;
+	position:absolute;
+	top: -10px;
+	left:calc(50% - 50px);
+	background:#f8f8f8;
+	color:#3b3b3b;
+}
+.register .footer ul{
+	margin-top:70px;
+	width:100%;
+	overflow: hidden;
+}
+.register .footer ul li{
+	float:left;
+	width:30%
+}
+.register .footer ul li>img{
+	float:right;
+	margin-right: 5px;
+	width:60%;
+}
